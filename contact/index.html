@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>contact us.</title>
+<link href="contact.css" rel="stylesheet" type="text/css" /> 
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="contact.js"></script>
+</head>
+
+<body>
+
+	<div id="contact">
+        
+            <h1>codejab contact form</h1>
+            <p>you can expect a reply within 24 hours</p>
+            
+            <div id="message"></div>
+                                
+            <form method="post" action="contact.php" name="contactform" id="contactform">
+            
+            <fieldset>
+                    
+            <legend>Please fill in the following form to contact us</legend>
+        
+            <label for="name" accesskey="U"><span class="required">*</span> Name</label>
+            <input name="name" type="text" id="name" size="30" value="" /> 
+        
+            <br />
+            <label for="email" accesskey="E"><span class="required">*</span> Email</label>
+            <input name="email" type="text" id="email" size="30" value="" />
+        
+            <br />
+            <label for="subject" accesskey="S">Subject</label>
+            <select name="subject" id="subject">
+              <option value="Support">Support</option>
+              <option value="a Bug fix">Report a bug</option>
+            </select>
+        
+            <br />
+            <label for="comments" accesskey="C"><span class="required">*</span> Your message</label>
+            <textarea name="comments" cols="40" rows="3"  id="comments" style="width: 350px;"></textarea>
+                            
+            <p><span class="required">*</span> Are you human?</p>
+                    
+            <label for="verify" accesskey="V">&nbsp;&nbsp;&nbsp;3 + 1 =</label>
+            <input name="verify" type="text" id="verify" size="4" value="" style="width: 30px;" /><br /><br />
+        
+            <input type="submit" class="submit" id="submit" value="Submit" />
+            
+            </fieldset>
+        
+            </form>
+                    
+	</div>
+
+</body>
+</html>

@@ -71,4 +71,4 @@ Credits
 
 Support
 ------------------------------------------
-* Sorry, No Support is available for this CMS
+* Sorry, No Support is available for this CMS.

@@ -1,10 +1,4 @@
 RewriteEngine on
-
-# add your domain
-
-RewriteCond %{HTTP_HOST} ^www.domain.com$ [NC]
-RewriteRule ^(.*)$ http://domain.com/$1 [R=301,L]
-
 RewriteRule ^embed/([^\.]+)\.js$ /code/embed/$1 [L]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f

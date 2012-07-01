@@ -1,7 +1,8 @@
 Description
 ----------------------
 
-Codejab is a snippet CMS built using PHP, MYSQL, CSS, and JavaScript with some jQuery tweaks.
+Codejab is a snippet CMS built using PHP, MYSQL, CSS, and
+JavaScript with some jQuery tweaks.
 
 This project started on wordpress with a stripped down admin,
 and wp-syntax highlighting plugin.
@@ -11,10 +12,9 @@ to its own lightweight CMS.
 
 Installation
 ----------------------
-1. Edit code/app/config/database.php and code/app/config/app.php
-2. Upload contents of code/ to the server
-3. Import contents of database.sql to your database
-4. Login and add content admin panel is at /admin/ and default user pass is admin / admin, you should prolly change that
+1. Upload contents to the server
+2. Visit your domain.com/install/ to Install the CMS
+3. Edit Line 50 of /contact/contact.php if you wish to use the AJAX Contact form
 
 Mods / Customizing
 ------------------------------------------
@@ -26,6 +26,7 @@ Mods / Customizing
 
 CMS Features
 ------------------------------------------
+* Easy Installer
 * Clean and simple interface for posting code by upload or cut and paste
 * Loading content via AJAX
 * Syntax highlighting with geshi
@@ -71,4 +72,4 @@ Credits
 
 Support
 ------------------------------------------
-* Sorry, No Support is available for this CMS.
+* Sorry, No Support is available for this CMS

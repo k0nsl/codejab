@@ -5,7 +5,7 @@
 </div>
 
 <div class="left footer">
-powered by <a href="/about.html" target="_new"><b>codejab</b></a>
+powered by <b>codejab</b>
 </div>
 
 </div>

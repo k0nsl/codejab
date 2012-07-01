@@ -58,7 +58,6 @@ if($_POST) {
 		    font-size: 18px;
 		    margin: 0;
 		    padding: 10px;
-		    border-radius:10px;
 		  }
 		  label {
 		    margin-top: 20px;
@@ -72,7 +71,6 @@ if($_POST) {
 		  }
 		  fieldset {
 		    padding: 15px;
-		    border-radius:10px;
 		  }
 		  legend {
 		    font-size: 18px;

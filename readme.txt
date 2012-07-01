@@ -69,7 +69,3 @@ Credits
 
 * dompdf (for generating pdfs)
    - http://code.google.com/p/dompdf/
-
-Support
-------------------------------------------
-* Sorry, No Support is available for this CMS

@@ -1,150 +1,120 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Codejab CMS</title>
+<link rel="stylesheet" type="text/css" media="all" href="style.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.smooth-scroll.min.js"></script>
+<script type="text/javascript" src="js/toc.js"></script>
+</head>
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<body>
+	<div id="container">
 
-    <title>Codejab by chrismccoy</title>
-  </head>
+		<div id="demo" class="box">
+			<a href="http://codejab.com">Demo</a>
+			<small>codejab example</small>
+		</div>
 
-  <body>
-    <header>
-      <div class="inner">
-        <h1>Codejab</h1>
-        <h2>tiny code snippet cms</h2>
-        <a href="https://github.com/chrismccoy/codejab" class="button"><small>View project on</small>GitHub</a>
-      </div>
-    </header>
+		<div id="download" class="box">
+			<a href="http://github.com/chrismccoy/codejab">Download</a>
+			<small>1.0</small>
+		</div>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h2>Description</h2>
+		<h1>codejab<small>code snippet cms</small></h1>
 
-<p>Codejab is a snippet CMS built using PHP, MYSQL, CSS, and
-JavaScript with some jQuery tweaks.</p>
+		<ul id="index">
+			<li><a href="#description">Description</a></li>
+			<li><a href="#installation">Installation</a></li>
+			<li><a href="#customize">Customize</a></li>
+			<li><a href="#features">Features</a></li>
+			<li><a href="#requirements">Requirements</a></li>
+			<li><a href="#credits">Credits</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
 
-<p>This project started on wordpress with a stripped down admin,
-and wp-syntax highlighting plugin.</p>
+		<h2 id="description">Description</h2>
 
-<p>It worked well for what I wanted,but I felt it was time to move it 
-to its own lightweight CMS.</p>
+		<p>Codejab is a snippet CMS built using PHP, MYSQL, CSS, and JavaScript with some jQuery tweaks.</p>
+		<p>This project started on wordpress with a stripped down admin,and wp-syntax highlighting plugin.</p>
+		<p>It worked well for what I wanted,but I felt it was time to move it to its own lightweight CMS.</p>
 
-<h2>Installation</h2>
+		<h2 id="installation">Installation</h2>
 
-<ol>
-<li>Upload contents to the server</li>
-<li>Visit your domain.com/install/ to Install the CMS</li>
-<li>Edit Line 50 of /contact/contact.php if you wish to use the AJAX Contact form</li>
-</ol><h2>Mods / Customizing</h2>
+		<p>Installation of the CodeJAB CMS takes under a minute to do, and is easy as pie.</p>
 
-<ul>
-<li>Pages functionality is in app/controllers, templates are in app/views</li>
-<li>Pages derive from base classes in app/core/RGNK_Controller.php</li>
-<li>Database functionality is in app/models</li>
-<li>If you name a javascript the file the same as the path part of the URL it will auto load jQuery goodness (ie: code/c.js will auto load on the code by categories page), views are named in a similar fashion</li>
-<li>Styles are in css/main.css</li>
-</ul><h2>CMS Features</h2>
+		<ul>
+		<li>1. Upload contents to the server</li>
+		<li>2. Visit your domain.com/install/ to Install the CMS</li>
+		<li>3. Edit Line 50 of /contact/contact.php if you wish to use the AJAX Contact form</li>
+		</ul>
 
-<ul>
-<li>Easy Installer</li>
-<li>Clean and simple interface for posting code by upload or cut and paste</li>
-<li>Loading content via AJAX</li>
-<li>Syntax highlighting with geshi</li>
-<li>Ability for code to expire by date (with jQuery date picker)</li>
-<li>Ajax login/register process with status messages</li>
-<li>Favorite system for registered users</li>
-<li>User submission system (must be approved to submit code)</li>
-<li>Categories and Tags</li>
-<li>Tag cloud based on posts</li>
-<li>Pagination system for page(s) of snippets</li>
-<li>Auto complete search implementation</li>
-<li>Download of each snippet (.php for php, .pl for perl, etc)</li>
-<li>Download source code in .pdf format</li>
-<li>Download zip of code snippet</li>
-<li>Printing of source code with color highlighting</li>
-<li>Download zip archive of all source code</li>
-<li>Thumbs-up rating system</li>
-<li>Slide down share box for sharing code</li>
-<li>Embed code for external sites</li>
-</ul><h2>Credits</h2>
+		<h2 id="customize">Customize</h2>
 
-<ul>
-<li>
-<p>Icons for admin panel</p>
+		<p>If you wish to customize the look of front end, its pretty simple.</p>
 
-<ul>
-<li><a href="http://www.famfamfam.com/lab/icons/silk/">http://www.famfamfam.com/lab/icons/silk/</a></li>
-</ul>
-</li>
-<li>
-<p>jQuery UI (auto complete and date picker)</p>
+		<ul>
+		<li>Pages functionality is in app/controllers, templates are in app/views</li>
+		<li>Pages derive from base classes in app/core/RGNK_Controller.php</li>
+		<li>Database functionality is in app/models</li>
+		<li>If you name a javascript the file the same as the path part of the URL it will auto load jQuery goodness</li>
+			<ul>
+			<li>(ie: code/c.js will auto load on the code by categories page), views are named in a similar fashion</li>
+			</ul>
+		<li>Styles are in css/main.css</li>
+		</ul>
 
-<ul>
-<li><a href="http://jqueryui.com/">http://jqueryui.com/</a></li>
-</ul>
-</li>
-<li>
-<p>Timer picker (add on for jQuery UI date picker)</p>
+		<h2 id="features">Features</h2>
 
-<ul>
-<li><a href="http://trentrichardson.com/examples/timepicker/">http://trentrichardson.com/examples/timepicker/</a></li>
-</ul>
-</li>
-<li>
-<p>jQuery jqprint (printing source code)</p>
+		<ul>
+		<li>Easy Installer</li>
+		<li>Clean and simple interface for posting code by upload or cut and paste</li>
+		<li>Loading content via AJAX</li>
+		<li>Syntax highlighting with geshi</li>
+		<li>Ability for code to expire by date (with jQuery date picker)</li>
+		<li>Ajax login/register process with status messages</li>
+		<li>Favorite system for registered users</li>
+		<li>User submission system (must be approved to submit code)</li>
+		<li>Categories and Tags</li>
+		<li>Tag cloud based on posts</li>
+		<li>Pagination system for page(s) of snippets</li>
+		<li>Auto complete search implementation</li>
+		<li>Download of each snippet (.php for php, .pl for perl, etc)</li>
+		<li>Download source code in .pdf format</li>
+		<li>Download zip of code snippet</li>
+		<li>Printing of source code with color highlighting</li>
+		<li>Download zip archive of all source code</li>
+		<li>Thumbs-up rating system</li>
+		<li>Slide down share box for sharing code</li>
+		<li>Embed code for external sites</li>
+		</ul>
 
-<ul>
-<li><a href="http://www.recoding.it/?p=138">http://www.recoding.it/?p=138</a></li>
-</ul>
-</li>
-<li>
-<p>jQuery Form (login/signup)</p>
+		<h2 id="requirements">Requirements</h2>
 
-<ul>
-<li><a href="http://jquery.malsup.com/form/">http://jquery.malsup.com/form/</a></li>
-</ul>
-</li>
-<li>
-<p>GeSHi Syntax Highlighter (for all source code snippets)</p>
+		<ul>
+		<li>Minimum of PHP 5.2.x</li>
+		<li>Minimum of MySQL 5.x</li>
+		</ul>
 
-<ul>
-<li><a href="http://qbnz.com/highlighter/">http://qbnz.com/highlighter/</a></li>
-</ul>
-</li>
-<li>
-<p>dompdf (for generating pdfs)</p>
+		<h2 id="credits">Credits</h2>
 
-<ul>
-<li><a href="http://code.google.com/p/dompdf/">http://code.google.com/p/dompdf/</a></li>
-</ul>
-</li>
-</ul>
-        </section>
+		<ul>
+		<li><a href="http://www.famfamfam.com/lab/icons/silk/">Icons for the admin panel</a></li>
+		<li><a href="http://jqueryui.com/">Jquery UI for autocomplete and date picking</a></li>
+		<li><a href="http://trentrichardson.com/examples/timepicker/">Time picker (addon for jQuery UI date picker)</a></li>
+		<li><a href="http://jquery.malsup.com/form/">jQuery Form for login/signups</a></li>
+		<li><a href="http://code.google.com/p/dompdf/">dompdf for generating PDF's</a></li>
+		<li><a href="http://www.recoding.it/?p=138">jQuery jqprint for printing source code</a></li>
+		<li><a href="http://qbnz.com/highlighter/">GeSHi Syntax Highlighter</a></li>
+		</ul>
 
-        <aside id="sidebar">
-          <a href="https://github.com/chrismccoy/codejab/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/chrismccoy/codejab/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
+		<h2 id="contact">Contact</h2>
 
-        </aside>
-      </div>
-    </div>
+		<p>If you have found a bug, want to say thanks or just love this project, write me an e-mail.</p>
+		<p><a href="mailto:chris@lod.com">chris@lod.com</a>
 
-  
-  </body>
+	</div>
+</body>
 </html>
+

@@ -1,0 +1,85 @@
+body {
+	background: #F8F8F8;
+	font-family: "Lucida Grande", Calibri, Arial;
+	font-size: 15px;
+}
+
+h1 {
+	display: block;
+	padding-left: 50px;
+	background: url("images/logo.png") no-repeat;
+}
+
+a {
+	color: #0078D6;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p, li {
+	color: #666;
+}
+
+h1 small, div.box small {
+	display: block;
+	color: #999;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 18px;
+	border-bottom: 1px dashed #D7D7D7;
+}
+
+#container {
+	width: 700px;
+	margin: 20px auto;
+}
+
+div.box {
+	height: 38px;
+	padding: 10px;
+	padding-left: 70px;
+	margin-right: 5px;
+}
+
+.box a {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#download {
+	width: 90px;
+	background: #EEF8AB url("images/download.png") no-repeat 10px 5px;
+	border: 1px solid #F8DD8C;
+	float: right;
+}
+
+#mail {
+	width: 130px;
+	background: #F8DD8C url("images/mail.png") no-repeat 10px 5px;
+	border: 1px solid #F8B58C;
+	float: left;
+}
+
+#demo {
+	width: 110px;
+	background: #D0EDFF url("images/demo.png") no-repeat 10px 5px;
+	border: 1px solid #C0CFFF;
+	float: right;
+}
+
+#index {
+	float: right;
+	width: 150px;
+	margin: 0px 0px 10px 10px;
+	background: #F8F8F8;
+	padding: 10px 10px 10px 30px;
+	list-style-type: square;
+}
+

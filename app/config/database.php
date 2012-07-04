@@ -35,8 +35,8 @@
 */
 
 // The following values will probably need to be changed.
-$db['default']['username'] = "username";
-$db['default']['password'] = "password";
+$db['default']['username'] = "";
+$db['default']['password'] = "";
 $db['default']['database'] = "codejab";
 
 // The following values can probably stay the same.

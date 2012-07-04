@@ -6,8 +6,8 @@ $db_config_path = '../app/config/database.php';
 
 if($_POST) {
 
-	require_once('core_class.php');
-	require_once('database_class.php');
+	require_once('includes/core_class.php');
+	require_once('includes/database_class.php');
 
 	$core = new Core();
 	$database = new Database();
@@ -58,6 +58,7 @@ if($_POST) {
 		    font-size: 18px;
 		    margin: 0;
 		    padding: 10px;
+		    border-radius:10px;
 		  }
 		  label {
 		    margin-top: 20px;
@@ -71,6 +72,7 @@ if($_POST) {
 		  }
 		  fieldset {
 		    padding: 15px;
+		    border-radius:10px;
 		  }
 		  legend {
 		    font-size: 18px;

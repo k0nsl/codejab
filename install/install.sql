@@ -85,3 +85,4 @@ CREATE TABLE IF NOT EXISTS `users` (
 INSERT INTO `users` VALUES(1, 'admin', '6CtjED1MC5GEay7jm+009J8oWtznLL0zSZZUFDYQdgPDBGnAqUQFHDiTuO+fWvoo2TSaIydj2cj1cg9pajOY+w==', 'user@domain.com', 1, 1, 1, 0);
 
 CREATE INDEX last_activity_idx ON sessions(last_activity); ALTER TABLE sessions MODIFY user_agent VARCHAR(120);
+ALTER TABLE sessions CHANGE ip_address ip_address varchar(45) default '0' NOT NULL;

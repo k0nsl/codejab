@@ -27,12 +27,12 @@ return array(
 	/**
 	 * (string) The username for the DSN string.
 	 */
-	'database_user' => 'chris',
+	'database_user' => '',
 
 	/**
 	 * (string) The password for the DSN string.
 	 */
-	'database_pass' => 'haha26009x',
+	'database_pass' => '',
 
 	/**
 	 * (array) An optional key=>value array of driver-specific connection options.

@@ -1,14 +1,11 @@
 Description
 ----------------------
 
-Codejab is a snippet CMS built using PHP, MYSQL, CSS, and
-JavaScript with some jQuery tweaks.
+Codejab is a snippet CMS built using PHP, MYSQL, CSS, and JavaScript with some jQuery tweaks.
 
-This project started on wordpress with a stripped down admin,
-and wp-syntax highlighting plugin.
+This project started on wordpress with a stripped down admin, and wp-syntax highlighting plugin.
 
-It worked well for what I wanted,but I felt it was time to move it 
-to its own lightweight CMS.
+It worked well for what I wanted,but I felt it was time to move it to its own lightweight CMS.
 
 Installation
 ----------------------

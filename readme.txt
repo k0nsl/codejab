@@ -14,7 +14,6 @@ Installation
 ----------------------
 1. Upload contents to the server
 2. Visit your domain.com/install/ to Install the CMS
-3. Edit Line 50 of /contact/contact.php if you wish to use the AJAX Contact form
 
 Mods / Customizing
 ------------------------------------------

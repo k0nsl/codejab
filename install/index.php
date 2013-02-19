@@ -6,8 +6,8 @@ $db_config_path = '../app/config/database.php';
 
 if($_POST) {
 
-	require_once('includes/core_class.php');
-	require_once('includes/database_class.php');
+	require_once('core_class.php');
+	require_once('database_class.php');
 
 	$core = new Core();
 	$database = new Database();
